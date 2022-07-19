@@ -1,0 +1,28 @@
+:root {
+  --primary-color: #5ba4a4;
+  --primary-color-second: #63baba;
+
+  --neutral-color-first: hsl(180, 52%, 96%);
+  --neutral-color-second: hsl(180, 31%, 95%);
+  --neutral-color-third: #7b8e8e;
+  --neutral-color-fourth: hsl(180, 14%, 20%);
+}
+
+.footer_container {
+  height: 5vh;
+  background-color: var(--primary-color);
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.footer_container p {
+  color: var(--neutral-color-first);
+}
+
+.footer_container a {
+  color: var(--neutral-color-second);
+  font-size: 1.1rem;
+  text-decoration: none;
+}
